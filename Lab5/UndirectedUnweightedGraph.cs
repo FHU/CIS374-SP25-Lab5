@@ -74,7 +74,6 @@ namespace Lab5
                 AddEdge(nodeNames[0], nodeNames[1]);
             }
         }
-
         public void AddEdge(string node1Name, string node2Name)
         {
             Node node1 = GetNodeByName(node1Name);
